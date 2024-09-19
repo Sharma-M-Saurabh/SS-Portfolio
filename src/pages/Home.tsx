@@ -61,7 +61,7 @@ const Home = () => {
 
   return (
     <div className=''>
-      <div className='flex justify-center items-center'>
+      <div className='flex justify-center items-center bg-white fixed w-dvw'>
         <nav className="top-2 backdrop-blur-[0.5rem] p-4 rounded-lg">
           <div className="p-5 container rounded-full mx-auto flex justify-between border border-opacity-100 items-center">
             <div className="flex space-x-4">
@@ -92,6 +92,11 @@ const Home = () => {
             Skills
           </h1>
         </Element>
+        <Element name="projects">
+          <h1 className="flex justify-center items-center h-dvh text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white bg-purple-800">
+            Projects
+          </h1>
+        </Element>
         <Element name="about">
           <h1 className="flex justify-center items-center h-dvh text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white bg-lime-500">
             About
@@ -102,11 +107,7 @@ const Home = () => {
             Contact
           </h1>
         </Element>
-        <Element name="projects">
-          <h1 className="flex justify-center items-center h-dvh text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white bg-purple-800">
-            Projects
-          </h1>
-        </Element>
+        
       </div>
     </div>
   );
